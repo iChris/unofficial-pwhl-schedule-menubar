@@ -9,5 +9,4 @@ DerivedData/
 # App Bundles and Archives
 *.app/
 *.app
-*.zip
 *.tar.gz

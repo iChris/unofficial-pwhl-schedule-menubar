@@ -22,7 +22,7 @@ Built entirely with Swift and SwiftUI, this lightweight app lives in your menu b
 
 For users who just want to run the app without building it from source:
 
-1. Download the `[PWHLSchedule.zip](https://github.com/iChris/unofficial-pwhl-schedule-menubar/blob/main/PWHLSchedule.zip)` file from the repository.
+1. Download the [PWHLSchedule.zip](https://github.com/iChris/unofficial-pwhl-schedule-menubar/blob/main/PWHLSchedule.zip) file from the repository.
 2. Double-click the downloaded zip file to extract it.
 3. Drag the extracted `PWHLSchedule.app` into your `Applications` folder.
 4. Double-click the app to launch it!

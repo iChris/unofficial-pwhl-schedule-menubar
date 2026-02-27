@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Xcode / Swift Build Path
+.build/
+.swiftpm/
+DerivedData/
+
+# App Bundles and Archives
+*.app/
+*.app
+*.zip
+*.tar.gz

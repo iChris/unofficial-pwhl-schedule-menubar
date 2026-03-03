@@ -41,6 +41,11 @@ struct ScheduleView: View {
         .frame(width: 320, height: 420)
         .background(service.hasLiveGame ? Color(hex: "33058D") : Color(NSColor.windowBackgroundColor))
         .environment(\.colorScheme, service.hasLiveGame ? .dark : colorScheme)
+        .onAppear {
+            Task {
+                await service.fetchSchedule()
+            }
+        }
     }
     
     private var header: some View {
